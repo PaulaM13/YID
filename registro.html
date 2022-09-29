@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="finish.css" />
+  
+  </head>
+  <body>
+    <script>
+      function validate() {
+        var mail = document.getElementbyId("text").value;
+        var regx = /^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+)(.[a-z]+)?$/;
+        if (regx.text(mail)) {
+          alert("El correo es válido");
+          return true;
+        } else {
+          alert("Ingrese un correo válido");
+          return false;
+        }
+      }
+    </script>
+  <a href="finish.html"><img src="/imagenes/Yes1.png" width="100" height="100"></a> 
+    <form class="formularioregistro">
+      <h5>Regístrate</h5>
+        <div class="input-contenedor">
+          <i class="fa-regular fa-circle-heart"></i>
+          <input class="controles" type="text" placeholder="Nombre Completo" />
+        </div>
+
+        <div class="input-contenedor">
+          <i class="fa-regular fa-circle-heart"></i>
+          <input class="controles" type="text" placeholder="Correo electrónico" />
+        </div>
+
+        <div class="input-contenedor">
+          <i class="fa-regular fa-circle-heart"></i>
+          <input class="controles" type="password" placeholder="Contraseña" />
+        </div>
+        <div class="input-contenedor">
+          <i class="fa-regular fa-circle-heart"></i>
+          <input class="controles" type="date" placeholder="Fecha de boda" />
+        </div>
+        <input  type="submit" value="Regístrate" class="boton" />
+        <p>Si te registras, aceptas nuestras condiciones</p>
+        <p>
+          ¿Ya tienes otra cuenta?
+          <a class="recu" href="iniciarsesion.html">Iniciar sesión</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,315 @@
+.container-fluid {
+  padding: 0px;
+}
+
+/*BOTON DE INICIAR SESION Y REGISTRO*/
+.menu-top {
+  background-color: #94b49f;
+  height: 100px;
+  margin: 0px;
+}
+
+/*{
+      margin-top: 1500px;
+        background-image: url("marmolado.jpg");
+        
+    }*/
+
+#navnar button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*LETRAS DE LA CUENTA REGRESIVA*/
+.content {
+  margin-top: 60px;
+  top: 30%;
+  height: 120px;
+  position: static;
+  transform: translateY(-50%);
+  background-color: #ecb390;
+  color: #fcf8e9;
+  padding: 20px;
+}
+/*LETRAS DE LA CUENTA REGRESIVA*/
+.content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-style: oblique;
+  width: 900px;
+  height: 200px;
+}
+/*FECHA DE LA CUENTA REGRESIVA*/
+.wed-time {
+  display: flex;
+}
+.wed-time div {
+  flex-basis: 100px;
+}
+.wed-time div p {
+  font-size: 40px;
+  color: #fcf8e9;
+}
+
+/*"FOTOS"*/
+h2 {
+  color: #94b49f;
+  text-align: center;
+}
+
+/*CARRUSEL DE FOTOS*/
+#carouselExampleControls {
+  width: 900px;
+  height: 650px;
+  margin: auto;
+}
+
+/*DIRECCION MAPA*/
+h3 {
+  color: #94b49f;
+  text-align: center;
+}
+
+/*MAPA*/
+
+.mapa {
+  width: 1100px;
+  height: 600px;
+  margin: auto;
+}
+
+.agenda {
+  color: #94b49f;
+  text-align: center;
+  font-style: initial;
+  font-size: 40px;
+}
+
+.img-agenda {
+  width: 1200px;
+  height: 900px;
+  margin: 60px;
+  margin-top: 0px;
+}
+#footer {
+  margin-left: 600px;
+  font-size: 17px;
+}
+
+footer {
+  background-color: #94b49f;
+  height: 100px;
+  margin-top: 8px;
+  padding: 0px;
+}
+
+.video {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*INICIAR SESION*/
+
+#formulario {
+  width: 400px;
+  height: 340px;
+  background-color: DF7861;
+}
+
+h1 {
+  color: #fcf8e9;
+  text-align: center;
+}
+.formulario {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fcf8e9;
+  margin: auto;
+  margin-top: 25px;
+  box-shadow: 7px 13px 37px #94b49f;
+  padding: 20px 30px;
+  border: 4px solid #df7861;
+  height: 360px;
+  width: 400px;
+  background-image: url(/imagenes/fondosipi.png);
+}
+
+h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid;
+  font-size: 35px;
+  color: #df7861;
+}
+
+.controles {
+  width: 80%;
+  border: 3px solid #94b49f;
+  margin-bottom: 10px;
+  padding: 10px 11px;
+  background-color: #fcf8e9;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.boton {
+  width: 40%;
+  height: 10%;
+  margin: 15px;
+  background-color: #df7861;
+  border: none;
+  margin-left: 95px;
+  margin-right: 95px;
+  color: #fcf8e9;
+  margin-bottom: 16px;
+}
+
+.recu {
+  color: #df7861;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body {
+  background-image: url(/imagenes/fondo.png);
+  background-size: 100%;
+}
+
+/*RECUPERAR CONTRASEÑA */
+.formulariorecu {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fcf8e9;
+  margin: auto;
+  margin-top: 25px;
+  box-shadow: 10px 15px 40px #94b49f;
+  padding: 20px 30px;
+  border: 4px solid #df7861;
+  height: 300px;
+  width: 420px;
+  background-image: url(/imagenes/fondosipi.png);
+}
+
+/*CREAR REGISTRO*/
+.formularioregistro {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fcf8e9;
+  margin: auto;
+  margin-top: 0px;
+  box-shadow: 10px 15px 40px #94b49f;
+  padding: 20px 30px;
+  border: 4px solid #df7861;
+  height: 500px;
+  width: 420px;
+  background-image: url(/imagenes/fondosipi.png);
+}
+
+.paula {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fcf8e9;
+  margin-top: 70px;
+  box-shadow: 10px 15px 40px #94b49f;
+  padding: 20px 30px;
+  border: 4px solid #df7861;
+  height: 200px;
+  width: 800px;
+  background-image: url(/imagenes/fondosipi.png);
+}
+
+.sofia {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fcf8e9;
+  margin-top: 70px;
+  box-shadow: 10px 15px 40px #94b49f;
+  padding: 20px 30px;
+  border: 4px solid #df7861;
+  height: 200px;
+  width: 800px;
+  background-image: url(/imagenes/fondosipi.png);
+}
+
+/*PRESUPUESTO*/
+
+/*PRESUPUESTO Y LISTA DE INVITADOS*/
+h2 {
+  color: #94b49f;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  width: 1000px;
+  height: 1000px;
+  justify-content: center;
+}
+
+#main-container {
+  margin: 20px auto;
+  width: 1000px;
+  height: 100px;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+table {
+  background-color: #fcf8e9;
+  text-align: left;
+  width: 100%;
+}
+
+/*DISTANCIA ENTRE COLUMNAS*/
+th,
+td {
+  padding: 20px;
+}
+
+/*ENCABEZADO DE LA TABLA*/
+thead {
+  background-color: #94b49f;
+  color: #fcf8e8;
+  border-bottom: solid 5px;
+}
+
+/*COLORES MAS CLAROS EN ALGUNAS FILAS DE LA TABLA*/
+tr:nth-child(even) {
+  background-color: FCF8E8;
+}
+
+/*ILUMINAR CUANDO PASES EL MOUSE*/
+tr:hover {
+  background-color: #94b49f;
+  color: #fcf8e8;
+}
+
+#agenda {
+  width: 150px;
+  height: 100px;
+  margin: 0;
+}
+
+.redes {
+  margin-left: 610px;
+  padding: 5px;
+}
+
+/*AGENDA IMAGEN*/
+.img-agenda {
+  width: 800px;
+  height: 600px;
+  margin-left: 250px;
+}
